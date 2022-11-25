@@ -1,0 +1,15 @@
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\bin\Debug\net6.0\ExercioTrelloCsharpDecimaLista.exe
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\bin\Debug\net6.0\ExercioTrelloCsharpDecimaLista.deps.json
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\bin\Debug\net6.0\ExercioTrelloCsharpDecimaLista.runtimeconfig.json
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\bin\Debug\net6.0\ExercioTrelloCsharpDecimaLista.dll
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\bin\Debug\net6.0\ExercioTrelloCsharpDecimaLista.pdb
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\obj\Debug\net6.0\ExercioTrelloCsharpDecimaLista.csproj.AssemblyReference.cache
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\obj\Debug\net6.0\ExercioTrelloCsharpDecimaLista.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\obj\Debug\net6.0\ExercioTrelloCsharpDecimaLista.AssemblyInfoInputs.cache
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\obj\Debug\net6.0\ExercioTrelloCsharpDecimaLista.AssemblyInfo.cs
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\obj\Debug\net6.0\ExercioTrelloCsharpDecimaLista.csproj.CoreCompileInputs.cache
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\obj\Debug\net6.0\ExercioTrelloCsharpDecimaLista.dll
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\obj\Debug\net6.0\refint\ExercioTrelloCsharpDecimaLista.dll
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\obj\Debug\net6.0\ExercioTrelloCsharpDecimaLista.pdb
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\obj\Debug\net6.0\ExercioTrelloCsharpDecimaLista.genruntimeconfig.cache
+D:\DEVinHOUSE\Exercicios Trello\Decima lista\ExercioTrelloCsharpDecimaLista\obj\Debug\net6.0\ref\ExercioTrelloCsharpDecimaLista.dll

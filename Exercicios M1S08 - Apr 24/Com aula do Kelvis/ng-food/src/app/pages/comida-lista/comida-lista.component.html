@@ -1,0 +1,14 @@
+<main class="container mt-5">
+  <div class="row mb-2">
+  
+    <ngf-item-cardapio 
+    *ngFor="let comida of listaComida"
+    [item]="comida"
+    (adicionaAoPedido)="adicionarComida($event)"
+    >
+  
+    </ngf-item-cardapio>
+    
+  
+    </div>
+    </main>

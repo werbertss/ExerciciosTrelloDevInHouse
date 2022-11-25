@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 300 500" version="1.1">
+  <defs id="defs6">
+    <filter id="filter3847" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur3849" stdDeviation="0.16117832"/>
+    </filter>
+    <filter id="filter3855" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur3857" stdDeviation="0.19694654"/>
+    </filter>
+    <filter id="filter3863" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur3865" stdDeviation="0.19933187"/>
+    </filter>
+    <radialGradient id="radialGradient4255" gradientUnits="userSpaceOnUse" cy="364.1" cx="308.41" gradientTransform="matrix(.93799 0 0 .24684 19.125 274.22)" r="79.42">
+      <stop id="stop3960" offset="0"/>
+      <stop id="stop3962" stop-opacity="0" offset="1"/>
+    </radialGradient>
+    <linearGradient id="linearGradient4257" y2="227.09" gradientUnits="userSpaceOnUse" x2="366.48" gradientTransform="translate(0,200)" y1="257.79" x1="393.81">
+      <stop id="stop3910" stop-color="#e6e6e6" offset="0"/>
+      <stop id="stop3912" stop-color="#666" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4259" y2="251.7" gradientUnits="userSpaceOnUse" x2="364.32" gradientTransform="translate(0,200)" y1="238.4" x1="437.14">
+      <stop id="stop3918" stop-color="#fff" offset="0"/>
+      <stop id="stop3920" stop-color="#fff" stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4261" y2="186.99" gradientUnits="userSpaceOnUse" x2="418.5" gradientTransform="translate(0,200)" y1="188.56" x1="383.53">
+      <stop id="stop3946" stop-color="#fff" stop-opacity="0" offset="0"/>
+      <stop id="stop3952" stop-color="#fff" stop-opacity=".51196" offset=".5"/>
+      <stop id="stop3948" stop-color="#fff" stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4263" y2="146.8" gradientUnits="userSpaceOnUse" x2="415.65" gradientTransform="translate(0,200)" y1="123.42" x1="410">
+      <stop id="stop3931" stop-color="#ccc" offset="0"/>
+      <stop id="stop3933" stop-color="#fff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4265" y2="65.572" gradientUnits="userSpaceOnUse" x2="-17.907" y1="146.28" x1="-22.476">
+      <stop id="stop3788" stop-color="#fff" offset="0"/>
+      <stop id="stop3790" stop-color="#fff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4267" y2="73.131" gradientUnits="userSpaceOnUse" x2="-17.677" y1="147.14" x1="-20.587">
+      <stop id="stop3012" stop-color="#d0d0d0" offset="0"/>
+      <stop id="stop3014" stop-color="#ccdbd4" offset="1"/>
+    </linearGradient>
+    <radialGradient id="radialGradient4269" gradientUnits="userSpaceOnUse" cy="-.11501" cx="428.74" gradientTransform="matrix(2.5276 1.0206 -.13885 1.9334 -671.45 -142.1)" r="32.311">
+      <stop id="stop3885" stop-color="#e6e6e6" offset="0"/>
+      <stop id="stop3887" stop-color="#e6e6e6" stop-opacity="0" offset="1"/>
+    </radialGradient>
+    <linearGradient id="linearGradient4271" y2="86.721" gradientUnits="userSpaceOnUse" x2="456.76" gradientTransform="translate(0,200)" y1="86.721" x1="353.61">
+      <stop id="stop3809" stop-color="#6d6d6d" offset="0"/>
+      <stop id="stop3815" stop-color="#b7b7b7" offset=".5"/>
+      <stop id="stop3811" stop-color="#797979" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4273" y2="84.37" gradientUnits="userSpaceOnUse" x2="406.59" gradientTransform="translate(0,200)" y1="122.57" x1="405.48">
+      <stop id="stop3874" stop-color="#999" offset="0"/>
+      <stop id="stop3876" stop-color="#888" stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4275" y2="80.971" gradientUnits="userSpaceOnUse" x2="399.04" gradientTransform="translate(0,199)" y1="118.97" x1="399.48">
+      <stop id="stop3796" stop-color="#b3b3b3" offset="0"/>
+      <stop id="stop3798" stop-color="#b3b3b3" stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4277" y2="68.996" gradientUnits="userSpaceOnUse" x2="462.81" gradientTransform="matrix(.79784 0 0 .79784 46.847 267.19)" y1="-51.545" x1="428.95">
+      <stop id="stop3995" stop-color="#f9f9f9" offset="0"/>
+      <stop id="stop3997" stop-color="#ccc" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="g4231" transform="matrix(1.4497 0 0 1.4497 -438.33 -239.34)">
+    <path id="path3956" d="m387.83 364.1c0 12.691-35.558 22.979-79.42 22.979-43.863 0-79.42-10.288-79.42-22.979s35.558-22.979 79.42-22.979c43.863 0 79.42 10.288 79.42 22.979z" fill="url(#radialGradient4255)" transform="matrix(.60914 0 0 1.1852 219.09 5.0157)"/>
+    <path id="path3897" d="m370.76 426.38c-0.22389 1.0993-0.33604 2.2116-0.33604 3.3521 0 13.621 17.469 24.669 37.821 24.669s36.843-11.048 36.843-24.669c0-1.1404-0.11216-2.2528-0.33605-3.3521-13.029 15.622-20.258 19.858-35.95 20.361-15.464 0.49643-35.603-8.3229-38.042-20.361z" fill="url(#linearGradient4257)"/>
+    <path id="path3902" d="m442.41 432.31c-8.8814 11.003-22.889 18.092-37.25 16.281-11.459-0.66982-23.253-4.4881-31.312-12.938 6.574 13.059 23.018 17.023 36.562 16.688 13.135-0.33535 29.562-6.5023 32.531-20.656l-0.53125 0.625z" fill="url(#linearGradient4259)"/>
+    <path id="path3891" d="m370.9 432.27-23.39-116.91 114.09-12.5-16.52 123.77s-13.647 23.315-40.718 21.77c-25.301-1.4437-33.461-16.126-33.461-16.126z" fill="#d40000"/>
+    <path id="path3895" opacity=".5" d="m458.84 105.53-108.53 11.875 22.812 113.94c0.17778 0.31405 1.8422 3.1574 6.4375 6.5625 4.8557 3.598 12.698 7.4284 24.906 8.125 25.02 1.4277 37.676-19.187 38.312-20.25l16.062-120.25z" fill="#f00" transform="translate(0,200)"/>
+    <path id="path3937" opacity=".76589" d="m422.5 329.88-41.938 4.0312 11.375 110.03c3.5513 1.05 7.6956 1.8178 12.531 2.0938 5.0838 0.2901 9.6529-0.35015 13.719-1.5312l4.31-114.62z" fill="url(#linearGradient4261)"/>
+    <path id="path3924" d="m461.59 302.88-114.09 12.46l1.9688 9.875c10.682 8.3725 24.242 16.194 57.816 14.984 25.117-0.90481 42.259-9.5866 51.829-19.48z" fill="url(#linearGradient4263)"/>
+    <path id="path2993" d="m78.109 111c0 21.254-45.309 38.484-101.2 38.484s-101.2-17.23-101.2-38.484 45.309-38.484 101.2-38.484 101.2 17.23 101.2 38.484z" fill="url(#linearGradient4265)" transform="matrix(.62691 -.040690 .053989 .88798 412.78 200.19)"/>
+    <path id="path3802" filter="url(#filter3847)" d="m409.59 267.56c28.664 0.48771 51.339 12.13 52.312 27.875 1.0747 17.373-24.653 33.157-57.469 35.25-2.051 0.13084-4.0896 0.19872-6.0938 0.21875 2.6482 0.0212 5.3591-0.0443 8.0938-0.21875 32.816-2.0935 58.543-17.877 57.469-35.25-0.99657-16.11-24.706-27.91-54.312-27.875z" fill="#808080"/>
+    <path id="path2987" filter="url(#filter3855)" d="m78.109 111c0 21.254-45.309 38.484-101.2 38.484s-101.2-17.23-101.2-38.484 45.309-38.484 101.2-38.484 101.2 17.23 101.2 38.484z" fill="url(#linearGradient4267)" transform="matrix(.58714 -.037456 .050564 .81741 411.42 207.64)"/>
+    <path id="path3880" d="m446.82 277.22c7.5738 3.8324 15.919 23.062-2.297 36.33s-48.625 14.664-63.671 11.718c-8.3301-1.6307 5.0443-22.659 23.261-35.927 18.216-13.268 32.902-17.082 42.707-12.121z" fill="url(#radialGradient4269)"/>
+    <path id="path3817" d="m78.109 111c0 21.254-45.309 38.484-101.2 38.484s-101.2-17.23-101.2-38.484 45.309-38.484 101.2-38.484 101.2 17.23 101.2 38.484z" fill-opacity=".63571" transform="matrix(.41227 0 0 .53003 413.71 238.56)" filter="url(#filter3863)" fill="#fff"/>
+    <path id="path2989" d="m78.109 111c0 21.254-45.309 38.484-101.2 38.484s-101.2-17.23-101.2-38.484 45.309-38.484 101.2-38.484 101.2 17.23 101.2 38.484z" fill="#ccc" transform="matrix(.40101 0 0 .54485 413.45 234.48)"/>
+    <path id="path2995" d="m404.2 273.99c-22.413 0-40.594 9.3884-40.594 20.969 0 1.547 0.3535 3.0484 0.96875 4.5 3.9904-9.4146 20.206-16.469 39.625-16.469s35.635 7.0541 39.625 16.469c0.61525-1.4516 0.9375-2.953 0.9375-4.5 0-11.58-18.15-20.969-40.562-20.969z" fill="url(#linearGradient4271)"/>
+    <path id="path3867" d="m432.59 286.78-55.59 1.97l-1.6875 20.938c7.3582 3.8521 17.572 6.25 28.875 6.25 12.508 0 23.681-2.934 31.125-7.5312l-2.7188-21.625z" fill="url(#linearGradient4273)"/>
+    <path id="path2991" d="m78.109 111c0 21.254-45.309 38.484-101.2 38.484s-101.2-17.23-101.2-38.484 45.309-38.484 101.2-38.484 101.2 17.23 101.2 38.484z" fill="#f2f2f2" transform="matrix(.27988 0 0 .38559 411.22 247.17)"/>
+    <path id="path3000" d="m404.76 282.14c-13.005 0-23.955 4.586-27.281 10.844 3.3414 6.2454 14.293 10.812 27.281 10.812s23.94-4.5671 27.281-10.812c-3.326-6.2578-14.277-10.844-27.281-10.844z" fill="url(#linearGradient4275)"/>
+    <path id="path3005" d="m404.75 275.12c-15.643 0-28.312 6.6483-28.312 14.844 0 0.16406 0.0212 0.33723 0.0312 0.5 0.51371-7.959 12.965-14.344 28.281-14.344s27.799 6.3847 28.312 14.344c0.0101-0.16277 0.0312-0.33594 0.0312-0.5 0-8.1954-12.701-14.844-28.344-14.844z" fill="#fff"/>
+    <path id="path3954" d="m397.39 291.76h11.403l1.9955-6.1737h-10.833z" fill="#4d4d4d"/>
+    <path id="path4011" d="m352.24 207.67s-1.0056 2.5436-1.1469 3.8895c-0.154 1.4662 0.34905 4.4131 0.34905 4.4131s0.35296 0.0714 0.37399 0.0748c0.00022 0.001-0.00014 0.0241 0 0.0249 0.13828 0.0125 0.33079 0.0368 0.47372 0.0499 1.8942 0.30946 19.462 3.2034 28.523 6.1085-0.10093-0.0269-0.19658-0.048-0.29919-0.0748 0.81735 0.24939 1.5701 0.50054 2.2439 0.74798 0.1944 0.0744 0.39456 0.15051 0.57345 0.22439 0.12344 0.0487 0.25727 0.10116 0.37399 0.1496 0.15155 0.0667 0.3113 0.13327 0.44879 0.19946 1.001 0.48184 1.6115 0.96019 1.7204 1.3962 5.4871 21.984 15.573 63.707 16.356 66.944l0.34905 0.0249 0.89758 0.0249 1.122 0.0499 1.9946 0.0748 2.0445 0.0748 0.2992 0.0249 0.94743-2.9171 0.0499-0.1496c-2.6668-11.026-11.659-48.389-16.805-68.989-0.0178-0.0711-0.0446-0.15291-0.0748-0.2244-0.007-0.014-0.0177-0.0357-0.0249-0.0499-0.21178-0.41616-0.68948-0.84827-1.3713-1.2716-6.5315-5.193-39.419-10.821-39.419-10.821z"/>
+    <path id="path3966" d="m352.24 207.67s-1.0056 2.5436-1.1469 3.8895c-0.154 1.4662 0.34905 4.4131 0.34905 4.4131s33.561 5.4126 34.432 8.9009c5.4871 21.984 15.573 63.707 16.356 66.944l6.7069 0.27426 0.94743-2.9171c-1.0189-4.1477-11.381-46.28-17.129-69.288-1.3798-5.5235-40.515-12.217-40.515-12.217z" fill="url(#linearGradient4277)"/>
+    <path id="path3982" d="m352.22 208.94c-0.28381 0.8051-0.57784 1.7469-0.69811 2.568 5.341 0.74315 39.038 5.5546 39.842 8.7763 5.3722 21.523 15.998 66.377 17.278 71.781l0.2992 0.0249 0.9973-3.0667c-2.6668-11.026-11.659-48.389-16.805-68.989-0.0178-0.0711-0.0446-0.1529-0.0748-0.22439-0.007-0.014-0.0177-0.0357-0.0249-0.0499-2.0943-4.1153-29.219-8.7323-40.815-10.821zm-0.67318 4.6624c0.10103 1.2462 0.26493 2.4133 0.27426 2.4683 10.643 0.9633 35.315 3.4784 36.003 6.2332 5.1712 20.718 14.878 61.586 16.78 69.612l1.9946 0.0748c-2.5138-10.385-11.757-49.03-16.979-69.936-0.96248-3.8529-25.103-6.5952-38.072-8.4522zm28.972 8.5519c3.2694 0.99756 5.5168 1.9952 5.7345 2.8672 5.4735 21.929 15.502 63.391 16.331 66.819l0.89758 0.0249c-3.1254-12.944-11.22-46.734-16.131-66.396-0.30367-1.2156-2.9836-2.3124-6.8315-3.316z" fill="#ff2a2a"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Softdrink</dc:title>
+        <dc:date>2011-07-13T13:38:59</dc:date>
+        <dc:description>clip art, clipart, cola, cup, drink, fast food, food, juice, lemonade, soda, softdrink, </dc:description>
+        <dc:source>http://openclipart.org/detail/149359/softdrink-by-gnokii</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>gnokii</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>cola</rdf:li>
+            <rdf:li>cup</rdf:li>
+            <rdf:li>drink</rdf:li>
+            <rdf:li>fast food</rdf:li>
+            <rdf:li>food</rdf:li>
+            <rdf:li>juice</rdf:li>
+            <rdf:li>lemonade</rdf:li>
+            <rdf:li>soda</rdf:li>
+            <rdf:li>softdrink</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,18 @@
+<nav class="navbar-container">
+    
+      <!-- <a class="navbar-brand" routerLinkActive="active" routerLink="">Cardapio</a> -->
+      <button class="item-nav navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fs-4">NG-FOOD</span>
+      </button>
+
+       
+          <a class="item-nav me-3 py-2 text-decoration-none" routerLinkActive="active" routerLink="" [routerLinkActiveOptions]="{exact: true}">Cardapio</a>
+          
+            <a class="item-nav me-3 py-2 text-decoration-none" routerLinkActive="active" routerLink="/comidas">Comidas</a>
+    
+            <a class="item-nav me-3 py-2 text-decoration-none" aria-current="page" routerLinkActive="active" routerLink="/bebidas">Bebidas</a>
+
+            <a class="item-nav me-3 py-2 text-decoration-none" aria-current="page" routerLinkActive="active" routerLink="/bebidas"> <span class="badge badge-pill btn btn-primary"> {{qtdeItemPedido}} </span> Pedido </a>
+          
+    
+  </nav>

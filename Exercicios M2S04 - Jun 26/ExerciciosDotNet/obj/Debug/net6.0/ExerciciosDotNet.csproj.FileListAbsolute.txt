@@ -1,0 +1,15 @@
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\bin\Debug\net6.0\ExerciciosDotNet.exe
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\bin\Debug\net6.0\ExerciciosDotNet.deps.json
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\bin\Debug\net6.0\ExerciciosDotNet.runtimeconfig.json
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\bin\Debug\net6.0\ExerciciosDotNet.dll
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\bin\Debug\net6.0\ExerciciosDotNet.pdb
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\obj\Debug\net6.0\ExerciciosDotNet.csproj.AssemblyReference.cache
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\obj\Debug\net6.0\ExerciciosDotNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\obj\Debug\net6.0\ExerciciosDotNet.AssemblyInfoInputs.cache
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\obj\Debug\net6.0\ExerciciosDotNet.AssemblyInfo.cs
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\obj\Debug\net6.0\ExerciciosDotNet.csproj.CoreCompileInputs.cache
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\obj\Debug\net6.0\ExerciciosDotNet.dll
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\obj\Debug\net6.0\refint\ExerciciosDotNet.dll
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\obj\Debug\net6.0\ExerciciosDotNet.pdb
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\obj\Debug\net6.0\ExerciciosDotNet.genruntimeconfig.cache
+D:\DEVinHOUSE\Exercicios Trello\Nona Lista\ExerciciosDotNet\obj\Debug\net6.0\ref\ExerciciosDotNet.dll

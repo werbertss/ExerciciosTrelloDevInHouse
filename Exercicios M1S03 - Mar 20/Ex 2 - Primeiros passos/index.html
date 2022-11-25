@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Site de Viagens</title>
+
+    <script src="index.js">
+    </script>
+   
+
+
+  </head>
+    <body class="margin">
+      
+
+
+        <!--Titulo da página-->
+        <h1 class="h1">Site de viagens</h1>
+
+
+
+        <!--Está é a barra de navegação-->
+        <div class="navegation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Viagens</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Lugares</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre nós</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Outros
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Ação</a>
+                    <a class="dropdown-item" href="#">Outra ação</a>
+                    <a class="dropdown-item" href="#">Algo mais aqui</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          
+
+
+            <!--Filtro de pesquisa-->
+            <nav class="navbar navbar-light bg-light">
+                <form class="form-inline">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+              </nav>
+          </nav>
+        </div>
+
+        
+          <!--Texto de informações sobre o site-->
+          <p class="text">Esté site é para mostrar os lugares incriveis que vocês podem conhecer. Conheça nossos planos de Viagens para você e toda a sua familia</p>
+          <p class="text">Todos esses lugares apresentados nesta aba, estão disponiveis, para realização no inicio do mês que vem (Abril)</p>
+          
+
+
+          <!--Imagem central-->
+        <div class="imagens">
+          <img src="Imagenseditadas/paisagemcentral.jpg" class="img-fluid" alt="Imagem principal"/>
+        </div>
+
+
+
+        <!--Segundo texto do site-->
+        <div class="text-2">
+          <p>Todos esses lugares apresentado abaixo, estará com esse preço de desconto, até o final deste mês de Março.
+            Passando o mês de Março, os valores terão um reajuste de 30%.
+          </p>
+        </div>
+
+
+
+    <!--Lista com os 3 lugares + imagens-->
+      <div class="imagens">
+        <div class="container">
+          <div class="row">
+
+            <div class="lugares">
+              <div class="col-sm">
+                <strong>Lugar 1</strong> 
+              </div>
+            </div>
+            <div>
+              <img src="Imagenseditadas/paisagem1.jpg" class="img-fluid" alt="Imagem1">
+            </div>
+
+            <div class="lugares">
+              <div class="col-sm">
+                <strong>Lugar 2</strong> 
+              </div>
+            </div>
+            <div>
+              <img src="Imagenseditadas/paisagem2.jpg" class="img-fluid" alt="Imagem2">
+            </div>
+
+            <div class="lugares">
+              <div class="col-sm">
+                <strong>Lugar 3</strong> 
+              </div>
+            </div>
+            <div>
+              <img src="Imagenseditadas/paisagem3.jpg" class="img-fluid" alt="Imagem3">
+            </div>
+
+        </div>
+      </div>
+      
+
+
+      <!--Listas com os preços-->
+      <div class="precos">
+      <div class="row">
+        
+          <div class="col-sm">
+            <strong>Lugar 1 Preço: R$ 3500</strong>
+          </div>
+          <div class="col-sm">
+            <strong>Lugar 2 Preço: R$ 4500</strong>
+          </div>
+          <div class="col-sm">
+            <strong>Lugar 3 Preço: R$ 2500</strong>
+          </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <!--Script JavaScrip para rodar aplicações que precisam do JavaScript, como o Modal-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+      
+      
+      </script>
+
+
+
+      <!--Botão para abrir o Modal-->
+      <div class="position-button">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#JanelaModal">
+          Conheça nossas politicas
+        </button>
+      </div>
+
+
+
+      <!--Modal-->
+      <div id="JanelaModal" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <div class="modal-header">
+              <h3 class="modal-title"> Nossas politicas </h3>
+              <button type="button" class="btn btn-close" data-bs-bismiss="modal"></button>
+            </div>
+            
+
+            <div class="modal-body">
+              <p>Nossas politicas devem ser cumpridas pelos individuos que forem ingressar conosco nas viagens.</p>
+              <p>Qualquer politica que for violada, poderá acarretar em penalidades para o sujeito.</p>
+            </div>
+
+            <div class="modal-footer">
+              <a href="#" target="_blank">Ir para a lista de politicas</a>
+              <button type="buton" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="rodape">
+        <footer class="footer">
+          Contato: (XX) X XXXX-XXXX <br>
+          Endereço: Rua tal, Nº 150, Bairro Tal - Cidade Tal - Minas Gerais (Brasil). <br>
+          Instagram: @tal
+        </footer>
+    </div>
+
+
+    </body>
+</html>

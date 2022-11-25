@@ -1,0 +1,51 @@
+EX 1 - Docker
+O que você entendeu da tecnologia Docker?
+
+R: Virtualizador de erviços, trabalhando via conteners
+
+EX 2 - Container
+O que é a virtualização de aplicações em contêiner?
+
+R: Criação de maquina virtual para funcionar dentro de um sistema operacional.
+
+EX 3 - Container
+Sabendo que um contêiner pode ser encerrado a qualquer momento e que isso excluirá todos seus registros, dados e configurações, como podemos contornar essa situação?
+
+R: Backup do Container
+
+EX 4 - Container
+Escreva o comando necessário para subir um container de nome web em segundo plano na porta 8081 com imagem do PHP versão 7.2 passando um diretório do host para dentro do container?
+
+R: docker container run --name web -p 80:80 -d phpdocker
+
+EX 5 - Container
+Qual comando usamos para ver detalhes de configurações, volumes, rede e demais informações de um container?
+
+R: Docker inspect "Nome da imagem"
+
+EX 6 - Docker-compose
+Qual comando usamos para subir serviços de um compose file em segundo plano? e para encerrar tudo que foi criado através do compose file?
+
+R: docker image build -t dockerapi:1.0 .
+
+EX 7 - Kubernetes
+Qual comando para listar todos os pods e saber o node que cada um está sendo executado?
+
+R: kubectl get
+
+EX 8 - Kubernetes
+Qual comando para acessar o bash de um pod no Kubernetes?
+
+R: kubectl get pod
+
+EX 9 - Kubernetes
+Para você, o que é o Rancher?
+
+R: Ferramenta Open Surce, usada para administrar e gerenciar uma infraestrutura de Docker e Kubernetes em produção.,
+
+EX 10 - Kubernetes
+Conceitue kubeadm, kubectl e kubelet
+
+R: kubeadm - Ferramenta CLI usada para configuração de vários componentes de um cluster de uma maneira padrão.
+kubectl - Usada por linha de comando, usada para gerenciar objetos e Kubernetes.
+kubelet - Um agente que é executado em cada node no cluster.

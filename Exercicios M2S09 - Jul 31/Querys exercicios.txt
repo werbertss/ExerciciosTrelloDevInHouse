@@ -1,0 +1,42 @@
+-- Exercicio 03 // Verificando qual o cliente com maior idade
+SELECT * FROM clientes
+WHERE dataNascimento = (SELECT MIN(dataNascimento) FROM clientes);
+
+-- Exercicio 04 // Verificando qual o cliente com maior saldo
+SELECT idConta, valor, nomeCompleto FROM conta
+INNER JOIN clientes
+ON conta.cliente_id = clientes.idCliente
+WHERE valor = (SELECT MAX(valor) FROM conta);
+
+-- Exercicio 05 // Quantas conta salario estão cadastradas
+SELECT * FROM clientes
+INNER JOIN contaTipo
+ON clientes.idCliente = contaTipo.idContaTipo
+WHERE nome = 'conta-salário';
+
+-- Exercicio 06 // Informe quantos clientes categoria ouro estão cadastrados
+SELECT COUNT (*) FROM clientes
+INNER JOIN categoria
+ON clientes.idCliente = categoria.idCategoria
+WHERE nomeCategoria = 'ouro';
+
+-- Exercicio 07 // Quais são os serviços oferecidos para os cliente da categoria premium
+SELECT * FROM contaServicos
+INNER JOIN categoria
+ON contaServicos.categoria_id = categoria.idCategoria
+WHERE nomeCategoria = 'premium';
+
+-- Exercicio 08 // Quantas transações falharam
+SELECT * FROM clientes
+INNER JOIN movimentoStatus
+ON clientes.idCliente = movimentoStatus.idMovimentoStatus
+WHERE nomeStatus = 'falha';
+
+-- Exercicio 09 // Qual é o tipo de movimento com maior quantidade de transações
+SELECT * FROM clientes
+INNER JOIN movimentoTipo
+ON clientes.idCliente = movimentoTipo.idMovimentoTipo
+WHERE nomeTipo = (SELECT MAX(nomeTipo) FROM movimentoTipo);
+
+-- Exercicio 10 // Quais são os tipos de movimentos disponiveis
+SELECT * FROM movimentoTipo

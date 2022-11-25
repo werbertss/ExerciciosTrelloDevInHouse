@@ -1,0 +1,94 @@
+Ex 5 - Criando um banco:
+
+CREATE DATABASE Empresa;
+
+Use Empresa;
+
+CREATE TABLE Empregados(
+	id_emp INT PRIMARY KEY IDENTITY (1,1),
+	nome_emp VARCHAR(200) NOT NULL,
+	endereco VARCHAR(200) NOT NULL,
+	idade INT NOT NULL,
+);
+
+CREATE TABLE Cargos(
+        id_cargo INT PRIMARY KEY IDENTITY (1,1),
+        nome_cargo VARCHAR(200) NOT NULL,
+);
+
+CREATE TABLE Gestores(
+        id_gestor INT PRIMARY KEY IDENTITY (1,1),
+        nome_gestor VARCHAR(200) NOT NULL,
+);
+
+Ex 6 - Populando o banco de dados:
+
+INSERT INTO Empregados VALUES ('Joao', 'Pirapora', 28);
+INSERT INTO Empregados VALUES ('Maria', 'Capim', 18);
+INSERT INTO Empregados VALUES ('Katia', 'Conceicao', 27);
+INSERT INTO Empregados VALUES ('Pedro', 'Algustos', 56);
+INSERT INTO Empregados VALUES ('Gabriel', 'Piaui', 20);
+INSERT INTO Empregados VALUES ('Abilio', 'Leopoldo', 36);
+INSERT INTO Empregados VALUES ('Weligton', 'Marranhao', 40);
+INSERT INTO Empregados VALUES ('Flavia', 'Juventino', 35);
+INSERT INTO Empregados VALUES ('Monique', 'Tereza', 19);
+INSERT INTO Empregados VALUES ('Marcos', 'Fatima', 42);
+
+INSERT INTO Cargos VALUES ('T.I');
+INSERT INTO Cargos VALUES ('Gestao');
+INSERT INTO Cargos VALUES ('R.H');
+INSERT INTO Cargos VALUES ('Comercial');
+INSERT INTO Cargos VALUES ('Financeiro');
+INSERT INTO Cargos VALUES ('Supervisao');
+INSERT INTO Cargos VALUES ('Gerencia');
+INSERT INTO Cargos VALUES ('Suporte');
+INSERT INTO Cargos VALUES ('Manutencao');
+INSERT INTO Cargos VALUES ('Administrativo');
+
+INSERT INTO Gestores VALUES ('Amanda');
+INSERT INTO Gestores VALUES ('Tereza');
+INSERT INTO Gestores VALUES ('Gabriela');
+INSERT INTO Gestores VALUES ('Jorge');
+INSERT INTO Gestores VALUES ('Roger');
+INSERT INTO Gestores VALUES ('Wilian');
+INSERT INTO Gestores VALUES ('Marcone');
+INSERT INTO Gestores VALUES ('Renato');
+INSERT INTO Gestores VALUES ('Beatriz');
+INSERT INTO Gestores VALUES ('Maria');
+
+Ex 7 - Criando uma coluna:
+
+ALTER TABLE Gestores ADD setor VARCHAR(200);
+
+UPDATE Empregados SET setor = 'TI' WHERE id_emp = 1;
+UPDATE Empregados SET setor = 'Adm' WHERE id_emp = 2;
+UPDATE Empregados SET setor = 'Financeiro' WHERE id_emp = 3;
+UPDATE Empregados SET setor = 'Suporte' WHERE id_emp = 4;
+UPDATE Empregados SET setor = 'Comercial' WHERE id_emp = 5;
+UPDATE Empregados SET setor = 'Servico' WHERE id_emp = 6;
+UPDATE Empregados SET setor = 'Manutencao' WHERE id_emp = 7;
+UPDATE Empregados SET setor = 'Supervisao' WHERE id_emp = 8;
+UPDATE Empregados SET setor = 'Comercial' WHERE id_emp = 9;
+UPDATE Empregados SET setor = 'TI' WHERE id_emp = 10;
+
+Ex 8 - Criando outra coluna:
+
+ALTER TABLE Empregados ADD cor_favorita VARCHAR(200);
+
+UPDATE Empregados SET cor_favorita = 'Amarelo' WHERE id_emp = 1;
+UPDATE Empregados SET cor_favorita = 'Verde' WHERE id_emp = 2;
+UPDATE Empregados SET cor_favorita = 'Marron' WHERE id_emp = 3;
+UPDATE Empregados SET cor_favorita = 'Azul' WHERE id_emp = 4;
+UPDATE Empregados SET cor_favorita = 'Preto' WHERE id_emp = 5;
+UPDATE Empregados SET cor_favorita = 'Laranja' WHERE id_emp = 6;
+UPDATE Empregados SET cor_favorita = 'Preto' WHERE id_emp = 7;
+UPDATE Empregados SET cor_favorita = 'Rosa' WHERE id_emp = 8;
+UPDATE Empregados SET cor_favorita = 'Branco' WHERE id_emp = 9;
+UPDATE Empregados SET cor_favorita = 'Vermelho' WHERE id_emp = 10;
+
+Ex 9 - Remova uma coluna:
+
+ALTER TABLE Empregados DROP COLUMN cor_favorita;
+
+
+

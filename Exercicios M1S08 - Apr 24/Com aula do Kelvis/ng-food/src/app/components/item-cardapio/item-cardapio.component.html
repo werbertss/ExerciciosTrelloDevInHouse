@@ -1,0 +1,14 @@
+<div class="col-md-6"> 
+<div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+    <div class="col p-4 d-flex flex-column position-static">
+      <!-- <button (click)="adicionarBebidas()">Adicionar mais</button> -->
+      <h3 class="mb-0">{{item?.titulo}}</h3>
+      <p class="card-text mb-auto">{{item?.descricao}}</p>
+      <h4 class="card-text text-success mb-auto " >
+          {{item?.valor}}
+      </h4>
+      <a href="#" class="btn btn-primary my-2" (click)="adicionarAoPedido()">Adicionar ao pedido</a>
+    </div>
+     <img src="{{item?.enderecoImagem}}" alt="Imagem bebida" class="tamanhoImagem">
+  </div>
+  </div>

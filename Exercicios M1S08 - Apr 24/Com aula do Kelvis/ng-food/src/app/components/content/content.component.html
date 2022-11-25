@@ -1,0 +1,17 @@
+<div id="espacamentoContent">
+
+  <div *ngFor="let menu of listaMenu" class="col-md-6">
+    <div 
+    (click)="redirecionar(menu.path)"
+    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <h3 class="mb-0">{{menu.titulo}}</h3>
+        <p class="card-text mb-auto">Lista de comidas. Comidas deliciosas. Temos suas comidas preferidas. Lista de comidas. Comidas deliciosas. Temos suas comidas preferidas. Lista de comidas. Lista de comidas. Comidas deliciosas. Temos suas comidas preferidas. </p>
+        <a class="stretched-link">Ver mais</a>
+      </div>
+      <img src="{{menu.enderecoImagem}}" alt="Imagem Comida" class="tamanhoImagem">
+    </div>
+
+  </div>
+
+</div>
